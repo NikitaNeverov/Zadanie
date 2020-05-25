@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище testModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sheet1s">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="255" />
+    <Property Name="Number" Type="nvarchar" MaxLength="255" />
+    <Property Name="Name_URL" Type="nvarchar" MaxLength="255" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" />
+    <Property Name="class" Type="nvarchar" MaxLength="255" />
+    <Property Name="class1" Type="nvarchar" MaxLength="255" />
+    <Property Name="Date" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status_URL" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="Хранилище testModelContainer">
+    <EntitySet Name="sheet1s" EntityType="Self.sheet1s" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

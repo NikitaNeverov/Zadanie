@@ -1,0 +1,21 @@
+﻿<Window x:Class="Zadanie.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="379.947" Width="380" FontSize="14" Background="Aquamarine"
+        AllowsTransparency="True"
+        WindowStyle="None" ResizeMode="NoResize">
+    <Border Background="#2e3137" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <StackPanel Orientation="Horizontal" Margin="0,125,0,0" Height="53">
+                <Button x:Name="btnAdmin" Content="ADMIN" Margin="0,0,20,0" Background="#545d6a" Foreground="White" 
+                        FontSize="18" HorizontalAlignment="Left" Width="140" Click="btnAdmin_Click"/>
+                <Button x:Name="btnUser" Content="USER" Background="#545d6a" Foreground="White" FontSize="18" 
+                        HorizontalAlignment="Right" Width="140" Click="btnUser_Click" Height="53" VerticalAlignment="Bottom"/>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

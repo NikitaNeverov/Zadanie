@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище testModelContainer" CdmEntityContainer="testEntities">
+    <EntitySetMapping Name="sheet1s">
+      <EntityTypeMapping TypeName="testModel.sheet1s">
+        <MappingFragment StoreEntitySet="sheet1s">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Name_URL" ColumnName="Name_URL" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="class" ColumnName="class" />
+          <ScalarProperty Name="class1" ColumnName="class1" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status_URL" ColumnName="Status_URL" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
